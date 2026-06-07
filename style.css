@@ -1,0 +1,181 @@
+*{
+    margin : 0;
+    font-family : Arial;
+    border : border-box;
+}
+
+
+.navbar {
+    height : 60px;
+    background-color : #ffffff;
+    padding: 12px;
+    display : flex;
+    align-items : center;
+    justify-content : space-evenly;
+    align-items : center;
+
+}
+
+.nav-logo {
+    height : 50px;
+    width : 100px;
+}
+
+.logo {
+    background-image : url("Images/flipkart.jpg");
+    background-size : cover;
+    height : 50px;
+    width : 100%;
+}
+
+/**box2**/
+
+.nav-search {
+    display : flex;
+    width : 350px;
+    height : 40px;
+    justify-content : space-evenly;
+}
+
+.search-icon {
+    width : 45px;
+    color : grey;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-color : rgb(228, 253, 253);
+    font-size : 1.2rem;
+    border-top-left-radius : 4px;
+    border-bottom-left-radius : 4px;
+}
+
+.search-engine {
+    width : 100%;
+    border : none;
+    font-size : 1.2rem; 
+    background-color : rgb(228, 253, 253);
+    border-top-right-radius : 4px;
+    border-bottom-right-radius : 4px; 
+}
+
+/**box3**/
+.nav-seller a {
+    text-decoration : none;
+    font-size : 1.3rem;
+    color : #171717;
+}
+
+/**box4**/
+.nav-sign-in a {
+    text-decoration : none;
+    border : none;
+    font-size : 1.3rem;
+    color : #171717;
+}
+
+.select-sign-in {
+    border : none;
+    font-size : 1.1rem;
+}
+
+.list {
+    border : none;
+}
+
+/**box5**/
+.nav-cart  {
+    font-size : 1.3rem;
+}
+
+/**Shop section**/
+
+.shopping-section {
+    display : flex;
+    justify-content : space-evenly;
+    background-color : #e2e7e6;
+}
+
+.box {
+    height : 100px;
+    width : 10%;
+    background-color : white;
+    padding : 20px; 
+}
+
+.box-img {
+    height : 64px;
+    width : 64px;
+    background-size : cover;
+}
+
+a {
+    text-decoration : none; ;
+    color : #333333;
+}
+
+/**Hero section**/
+.hero-section {
+    height : 200px;
+    background-image : url("Images/Hero\ img.webp");
+    background-size : cover;
+}
+
+/**accesories section**/
+
+.content {
+    display : flex;
+    justify-content : space-between;
+    align-items : center; 
+    height : 80px;
+    width : 996px;
+}
+
+.shop-boxes {
+    display : flex;
+}
+
+.box-img1 {
+    height : 160px;
+    width : 160px;
+    background-size : cover;
+    padding-left : 50px;
+}
+
+.box1 {
+    height : 200px;
+    width : 220px;
+    border : 1px solid grey;
+    margin : 20px;
+}
+
+.box1 p {
+    text-align : center;
+}
+
+
+.shop-boxes1 {
+    display : flex;
+    flex-wrap : wrap;
+    justify-content: center;
+}
+
+
+.box-img2 {
+    height : 160px;
+    width : 160px;
+    background-size : cover;
+    padding-left : 50px;
+}
+
+.box2 {
+    height : 200px;
+    width : 220px;
+    border : 1px solid grey;
+    margin : 20px;
+}
+
+
+
+
+
+
